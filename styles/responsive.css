@@ -1,0 +1,203 @@
+/* Responsive */
+@media (max-width: 1024px) {
+  /* About US */
+  .about p {
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  .about img {
+    margin: 30px 0 auto 0;
+    height: 50%;
+    width: 300px;
+  }
+
+  /* Our Team */
+  .team-members-wrapper {
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+
+  .team-members {
+    width: 30%;
+    padding-bottom: 30px;
+  }
+
+  /* Contact Us / Message */
+}
+
+@media (max-width: 768px) {
+  /* About US */
+  .header-list {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+    color: cornflowerblue;
+    margin-right: -30px;
+    margin-left: -30px;
+    margin-top: 5px;
+  }
+
+  /* About Us */
+  .content1 h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .content1 hr {
+    margin: auto;
+  }
+
+  .about p {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .about img {
+    display: none;
+  }
+}
+
+@media (max-width: 670px) {
+  .main-top p {
+  font-size: 18px;
+  }
+  
+  .main-top h1 {
+  font-size: 30px;
+  }
+
+  .container {
+    padding: 0 50px;
+  }
+
+  .container h2 {
+    font-size: 25px;
+  }
+
+  .container p {
+    font-size: 15px;
+  }
+
+  /* Header */
+  .header-list {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+    color: cornflowerblue;
+    margin-right: -30px;
+    margin-left: -30px;
+    margin-top: 5px;
+  }
+
+  /* Our Team */
+  .team-title h2 {
+    font-size: 25px;
+  }
+
+  .team-title p {
+    font-size: 15px;
+  }
+
+  .team-members h4 {
+    font-size: 15px;
+  }
+
+  .team-members p {
+    font-size: 12px;
+  }
+
+  .team-members-wrapper {
+    flex-direction: column;
+  }
+
+  .team-members {
+    margin: auto;
+    width: 100%;
+  }
+
+  .team-members img {
+    width: 100px;
+  }
+
+  .team-members hr {
+    width: 100px;
+  }
+
+  /* Contact Us / Message */
+  .contact-form {
+  text-align: center;
+  background-color: #f7f7f7;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  }
+
+  .section {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .section-title {
+    margin-bottom: 0;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 2px;
+    font-weight: bold;
+  }
+
+  .gif {
+    width: 20px;
+    margin-bottom: 0px;
+    padding: 30px 5px 0 5px;
+  }
+
+  .section hr {
+    border: 2px solid cornflowerblue;
+    border-radius: 3px;
+    width: 100%;
+  }
+
+  .form {
+    margin-top: 50px;
+    width:100%;
+  }
+
+  textarea,
+  input {
+    width: 100%;
+  }
+
+  .contact-submit {
+    color: white;
+    display: inline-block;
+    /* opacity: 0.8; */
+    border-radius: 20px;
+    background-color: #66df96;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+    width: 100%;
+  }
+
+  .contact-submit:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  .contact-submit:hover {
+    background-color: #5dca88;
+  }
+
+  .form p {
+    font-size: 15px;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+
+}
