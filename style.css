@@ -1,0 +1,327 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 70px;
+  /* margin: 0 auto; */
+}
+
+/* Header Navbar */
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+}
+
+.header-logo {
+  float: left;
+  /* margin-top: 10px; */
+}
+
+.header-logo img {
+  margin-top: -62px;
+  margin-left: -10px;
+}
+
+/* .header-logo a {
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+} */
+
+.header-list {
+  float: right;
+  margin-right: -20px;
+}
+
+.header-list li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 45px;
+}
+
+.header-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header-list a:hover {
+  color: cornflowerblue;
+}
+
+.fa-bars {
+  display: none;
+  color: cornflowerblue;
+  float: right;
+  font-size: 25px;
+  padding: 21px 15px;
+}
+
+/* Jumbotron */
+.main-top {
+  height: 520px;
+  background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.main-top h1 {
+  font-size: 50px;
+  color: white;
+  margin: 0 auto;
+  padding-top: 180px;
+  letter-spacing: 3px;
+  text-shadow: 2px 4px 5px black;
+}
+
+.main-top p {
+  font-size: 38px;
+  color: white;
+  letter-spacing: 3px;
+  text-shadow: 2px 4px 5px black;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
+.main-top a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-project {
+  padding: 10px 20px;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+}
+
+.btn-project:hover {
+  background-color: rgb(81, 120, 190);
+}
+
+/* About Us */
+.content1 {
+  margin-top: 50px;
+}
+
+.content1 h2 {
+  /* padding-top: 50px; */
+  margin: 0;
+  font-size: 35px;
+}
+
+.content1 hr {
+  border: 2px solid cornflowerblue;
+  border-radius: 3px;
+  width: 100px;
+  margin-left: 0;
+}
+
+.about {
+  display: flex;
+}
+
+.about p {
+  font-size: 20px;
+  width: 50%;
+  text-align: left;
+  line-height: 40px;
+  margin-right: 50px;
+}
+
+.about img {
+  margin-left: 50px;
+  margin-right: auto;
+  height: 100%;
+}
+
+/* .content {
+  float: left;
+} */
+
+/* Our Team */
+.teams {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.team-title {
+  padding-top: 30px;
+}
+
+.team-title h2 {
+  font-size: 32px;
+  margin: 0;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.team-title hr {
+  border: 2px solid cornflowerblue;
+  border-radius: 3px;
+  width: 100px;
+}
+
+.team-title p {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.team-members-wrapper {
+  display: flex;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  padding: 30px 0;
+}
+
+.team-members {
+  flex: auto;
+  text-align: center;
+  color: white;
+}
+
+.team-members img {
+  max-width: 125px;
+  border: 2px solid white;
+  border-radius: 100px;
+  box-shadow: 7px 6px 15px 0px rgba(255, 255, 255, 0.4);
+}
+
+.team-members h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.team-members p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.team-members hr {
+  margin: 10px auto;
+  width: 125px;
+  border: 0.5px solid white;
+  border-radius: 3px;
+}
+
+.socmed-wrapper span {
+  font-size: 18px;
+  margin-top: 0;
+  /* margin-bottom: 20px; */
+}
+
+.socmed-wrapper .fa-instagram {
+  margin-right: 5px;
+}
+
+.socmed-wrapper a {
+  color: white;
+}
+
+.socmed-wrapper a:hover {
+  color: black;
+}
+
+/* Message / Contact Us */
+.contact-form {
+  text-align: center;
+  background-color: #f7f7f7;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.section {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.section-title {
+  margin-bottom: 0;
+  font-size: 32px;
+  margin-left: 65px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.gif {
+  width: 55px;
+  margin-bottom: 0px;
+  padding: 30px 5px 0 5px;
+}
+
+.section hr {
+  border: 2px solid cornflowerblue;
+  border-radius: 3px;
+  width: 100px;
+}
+
+.form {
+  margin-top: 50px;
+}
+
+textarea,
+input {
+  width: 300px;
+  border: 1px solid #dee7ec;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.contact-submit {
+  color: white;
+  display: inline-block;
+  /* opacity: 0.8; */
+  border-radius: 20px;
+  background-color: #66df96;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  width: 250px;
+}
+
+.contact-submit:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.contact-submit:hover {
+  background-color: #5dca88;
+}
+
+/* Footer */
+.footer {
+  background-color: cornflowerblue;
+  color: black;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer p {
+  padding-top: 16px;
+  color: white;
+  font-size: 14px;
+}
+
+.fa-heart {
+  color: salmon;
+}
